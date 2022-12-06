@@ -96,3 +96,4 @@ class Graph(object):
         '''
         Для прохождения по вершинам графа
         '''
+        return next(self._iter_obj)
